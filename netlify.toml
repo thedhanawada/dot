@@ -1,9 +1,8 @@
-[build]
-  publish = "public"
-  command = "hugo"
-
 [context.production.environment]
-  HUGO_VERSION = "0.57.0"
+HUGO_VERSION = "0.74.3"
+HUGO_ENV = "production"
+RUBY_VERSION = "2.6.2"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.57.0"
+HUGO_VERSION = "0.74.3"
+RUBY_VERSION = "2.6.2"
